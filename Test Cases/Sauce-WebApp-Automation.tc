@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sauce Labs Web App UI Automation</description>
+   <name>Sauce-WebApp-Automation</name>
+   <tag>Sauce</tag>
+   <comment></comment>
+   <testCaseGuid>f93b98a0-49c7-440a-9b16-f493144ffb9a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Web Automation New Suite" time="94.865" tests="3" failures="0" errors="0">
+   <testsuite name="Web Automation New Suite" tests="3" failures="0" errors="0" time="94.865" skipped="0" timestamp="2023-06-14 00:00:26" hostname="4817 - XCVDI-CTX210.xipl.local" id="Test Suites/Web Automation New Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\4817\\Katalon Studio\\My First Web UI Project\\Reports\\20230614_000017\\Web Automation New Suite\\20230614_000018"/>
+         <property name="logFiles" value="C:\\Users\\4817\\Katalon Studio\\My First Web UI Project\\Reports\\20230614_000017\\Web Automation New Suite\\20230614_000018\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-full_view.png, keyes\keyes-full_view.png, keyes\keyes-full_view.png, keyes\keyes-full_view.png, keyes\keyes-full_view.png, keyes\keyes-full_view.png"/>
+         <property name="hostName" value="4817 - XCVDI-CTX210.xipl.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="10.210.44.46"/>
+         <property name="sessionId" value="bce141ded996b755b63600ff3169dc79"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Tricentis Sample App Auto Insurance Automation" time="53.68" classname="Test Cases/Tricentis Sample App Auto Insurance Automation" status="PASSED">
+         <system-out><![CDATA[2023-06-14 00:00:27 - [TEST_CASE][PASSED] - Test Cases/Tricentis Sample App Auto Insurance Automation: Test Cases/Tricentis Sample App Auto Insurance Automation
+
+2023-06-14 00:00:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-14 00:00:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-14 00:00:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-14 00:00:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-14 00:00:32 - [TEST_STEP][PASSED] - navigateToUrl("http://sampleapp.tricentis.com/101/"): Navigate to 'http://sampleapp.tricentis.com/101/' successfully
+
+2023-06-14 00:00:35 - [MESSAGE][PASSED] - Navigate to 'http://sampleapp.tricentis.com/101/' successfully
+
+2023-06-14 00:00:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Tricentis Vehicle Insurance/a_Automobile")): Object: 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Tricentis Vehicle Insurance/a_Automobile' is clicked on
+
+2023-06-14 00:00:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Tricentis Vehicle Insurance/a_Automobile' is clicked on
+
+2023-06-14 00:00:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_Engine Performance kW_kW"), "4324"): Text '4324' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_Engine Performance kW_kW'
+
+2023-06-14 00:00:38 - [MESSAGE][PASSED] - Text '4324' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_Engine Performance kW_kW'
+
+2023-06-14 00:00:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_Date of Manufacture_Date of Manufacture"), ""): Text '' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_Date of Manufacture_Date of Manufacture'
+
+2023-06-14 00:00:39 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_Date of Manufacture_Date of Manufacture'
+
+2023-06-14 00:00:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_Date of Manufacture_Date of Manufacture")): Object: 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_Date of Manufacture_Date of Manufacture' is clicked on
+
+2023-06-14 00:00:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_Date of Manufacture_Date of Manufacture' is clicked on
+
+2023-06-14 00:00:40 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("full_view", CONTINUE_ON_FAILURE): Taking screenshot successfully
+
+2023-06-14 00:00:41 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-06-14 00:00:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-full_view.png]]
+
+2023-06-14 00:00:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_Engine Performance kW_kW"), "2000"): Text '2000' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_Engine Performance kW_kW'
+
+2023-06-14 00:00:42 - [MESSAGE][PASSED] - Text '2000' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_Engine Performance kW_kW'
+
+2023-06-14 00:00:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_Date of Manufacture_Date of Manufacture"), "04/04/2020"): Text '04/04/2020' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_Date of Manufacture_Date of Manufacture'
+
+2023-06-14 00:00:43 - [MESSAGE][PASSED] - Text '04/04/2020' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_Date of Manufacture_Date of Manufacture'
+
+2023-06-14 00:00:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/select_please select                       _9e925e"), "default", true): All options with value 'default' are selected in object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/select_please select                       _9e925e'  using regular expression
+
+2023-06-14 00:00:44 - [MESSAGE][PASSED] - All options with value 'default' are selected in object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/select_please select                       _9e925e'  using regular expression
+
+2023-06-14 00:00:44 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("full_view", CONTINUE_ON_FAILURE): Taking screenshot successfully
+
+2023-06-14 00:00:45 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-06-14 00:00:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-full_view.png]]
+
+2023-06-14 00:00:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/select_please select                       _9e925e"), "4", true): All options with value '4' are selected in object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/select_please select                       _9e925e'  using regular expression
+
+2023-06-14 00:00:47 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/select_please select                       _9e925e'  using regular expression
+
+2023-06-14 00:00:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/select_please select                       _b55154"), "Diesel", true): All options with value 'Diesel' are selected in object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/select_please select                       _b55154'  using regular expression
+
+2023-06-14 00:00:48 - [MESSAGE][PASSED] - All options with value 'Diesel' are selected in object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/select_please select                       _b55154'  using regular expression
+
+2023-06-14 00:00:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_List Price_List Price"), "5000"): Text '5000' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_List Price_List Price'
+
+2023-06-14 00:00:49 - [MESSAGE][PASSED] - Text '5000' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_List Price_List Price'
+
+2023-06-14 00:00:49 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("full_view", CONTINUE_ON_FAILURE): Taking screenshot successfully
+
+2023-06-14 00:00:49 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-06-14 00:00:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-full_view.png]]
+
+2023-06-14 00:00:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_License Plate Number_License Plate Number"), "LIC4638"): Text 'LIC4638' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_License Plate Number_License Plate Number'
+
+2023-06-14 00:00:50 - [MESSAGE][PASSED] - Text 'LIC4638' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_License Plate Number_License Plate Number'
+
+2023-06-14 00:00:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_Annual Mileage mi_Annual Mileage"), "450"): Text '450' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_Annual Mileage mi_Annual Mileage'
+
+2023-06-14 00:00:51 - [MESSAGE][PASSED] - Text '450' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_Annual Mileage mi_Annual Mileage'
+
+2023-06-14 00:00:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/button_Next")): Object: 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/button_Next' is clicked on
+
+2023-06-14 00:00:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/button_Next' is clicked on
+
+2023-06-14 00:00:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_First Name_First Name"), "first name"): Text 'first name' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_First Name_First Name'
+
+2023-06-14 00:00:54 - [MESSAGE][PASSED] - Text 'first name' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_First Name_First Name'
+
+2023-06-14 00:00:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_Last Name_Last Name"), "lastname"): Text 'lastname' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_Last Name_Last Name'
+
+2023-06-14 00:00:55 - [MESSAGE][PASSED] - Text 'lastname' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_Last Name_Last Name'
+
+2023-06-14 00:00:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_Last Name_Last Name")): Object: 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_Last Name_Last Name' is clicked on
+
+2023-06-14 00:00:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_Last Name_Last Name' is clicked on
+
+2023-06-14 00:00:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_First Name_First Name"), "firstname"): Text 'firstname' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_First Name_First Name'
+
+2023-06-14 00:00:57 - [MESSAGE][PASSED] - Text 'firstname' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_First Name_First Name'
+
+2023-06-14 00:00:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/span_Male_ideal-radio")): Object: 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/span_Male_ideal-radio' is clicked on
+
+2023-06-14 00:00:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/span_Male_ideal-radio' is clicked on
+
+2023-06-14 00:00:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/button_Date of Birth_Open Date of Birth Calender")): Object: 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/button_Date of Birth_Open Date of Birth Calender' is clicked on
+
+2023-06-14 00:00:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/button_Date of Birth_Open Date of Birth Calender' is clicked on
+
+2023-06-14 00:00:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/a_6")): Object: 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/a_6' is clicked on
+
+2023-06-14 00:00:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/a_6' is clicked on
+
+2023-06-14 00:00:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/button_Date of Birth_Open Date of Birth Calender")): Object: 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/button_Date of Birth_Open Date of Birth Calender' is clicked on
+
+2023-06-14 00:00:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/button_Date of Birth_Open Date of Birth Calender' is clicked on
+
+2023-06-14 00:00:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_Date of Birth_Date of Birth"), "06/06/2000"): Text '06/06/2000' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_Date of Birth_Date of Birth'
+
+2023-06-14 00:01:00 - [MESSAGE][PASSED] - Text '06/06/2000' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_Date of Birth_Date of Birth'
+
+2023-06-14 00:01:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_Street Address_Street Address"), "street address"): Text 'street address' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_Street Address_Street Address'
+
+2023-06-14 00:01:01 - [MESSAGE][PASSED] - Text 'street address' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_Street Address_Street Address'
+
+2023-06-14 00:01:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/select_please select AfghanistanAlbaniaAlge_c83022"), "default", true): All options with value 'default' are selected in object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/select_please select AfghanistanAlbaniaAlge_c83022'  using regular expression
+
+2023-06-14 00:01:07 - [MESSAGE][PASSED] - All options with value 'default' are selected in object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/select_please select AfghanistanAlbaniaAlge_c83022'  using regular expression
+
+2023-06-14 00:01:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/select_please select AfghanistanAlbaniaAlge_c83022"), "Bangladesh", true): All options with value 'Bangladesh' are selected in object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/select_please select AfghanistanAlbaniaAlge_c83022'  using regular expression
+
+2023-06-14 00:01:13 - [MESSAGE][PASSED] - All options with value 'Bangladesh' are selected in object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/select_please select AfghanistanAlbaniaAlge_c83022'  using regular expression
+
+2023-06-14 00:01:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_Zip Code_Zip Code"), "23442"): Text '23442' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_Zip Code_Zip Code'
+
+2023-06-14 00:01:14 - [MESSAGE][PASSED] - Text '23442' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_Zip Code_Zip Code'
+
+2023-06-14 00:01:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_City_City"), "columbo"): Text 'columbo' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_City_City'
+
+2023-06-14 00:01:15 - [MESSAGE][PASSED] - Text 'columbo' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_City_City'
+
+2023-06-14 00:01:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/select_please select                       _4c6253"), "default", true): All options with value 'default' are selected in object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/select_please select                       _4c6253'  using regular expression
+
+2023-06-14 00:01:16 - [MESSAGE][PASSED] - All options with value 'default' are selected in object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/select_please select                       _4c6253'  using regular expression
+
+2023-06-14 00:01:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/select_please select                       _4c6253"), "Employee", true): All options with value 'Employee' are selected in object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/select_please select                       _4c6253'  using regular expression
+
+2023-06-14 00:01:18 - [MESSAGE][PASSED] - All options with value 'Employee' are selected in object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/select_please select                       _4c6253'  using regular expression
+
+2023-06-14 00:01:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/span_Speeding_ideal-check")): Object: 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/span_Speeding_ideal-check' is clicked on
+
+2023-06-14 00:01:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/span_Speeding_ideal-check' is clicked on
+
+2023-06-14 00:01:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_Website_Website"), "website.com"): Text 'website.com' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_Website_Website'
+
+2023-06-14 00:01:19 - [MESSAGE][PASSED] - Text 'website.com' is set on object 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_Website_Website'
+
+2023-06-14 00:01:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/button_Next")): Object: 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/button_Next' is clicked on
+
+2023-06-14 00:01:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/button_Next' is clicked on
+
+2023-06-14 00:01:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-14 00:01:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sauce-WebApp-Automation" time="11.219" classname="Test Cases/Sauce-WebApp-Automation" status="PASSED">
+         <system-out><![CDATA[2023-06-14 00:01:21 - [TEST_CASE][PASSED] - Test Cases/Sauce-WebApp-Automation: Test Cases/Sauce-WebApp-Automation
+
+2023-06-14 00:01:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-14 00:01:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-14 00:01:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-14 00:01:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-14 00:01:23 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-06-14 00:01:24 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-06-14 00:01:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-06-14 00:01:25 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-06-14 00:01:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/input_Swag Labs_password'
+
+2023-06-14 00:01:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/input_Swag Labs_password'
+
+2023-06-14 00:01:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-06-14 00:01:26 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-06-14 00:01:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-06-14 00:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-06-14 00:01:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/button_Add to cart_1")): Object: 'Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/button_Add to cart_1' is clicked on
+
+2023-06-14 00:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/button_Add to cart_1' is clicked on
+
+2023-06-14 00:01:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/img_Remove_inventory_item_img")): Object: 'Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/img_Remove_inventory_item_img' is clicked on
+
+2023-06-14 00:01:28 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/img_Remove_inventory_item_img' is clicked on
+
+2023-06-14 00:01:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/button_Add to cart_1_2")): Object: 'Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/button_Add to cart_1_2' is clicked on
+
+2023-06-14 00:01:28 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/button_Add to cart_1_2' is clicked on
+
+2023-06-14 00:01:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/img_Back to products_back-image")): Object: 'Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/img_Back to products_back-image' is clicked on
+
+2023-06-14 00:01:29 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/img_Back to products_back-image' is clicked on
+
+2023-06-14 00:01:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/button_Open Menu")): Object: 'Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/button_Open Menu' is clicked on
+
+2023-06-14 00:01:30 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/button_Open Menu' is clicked on
+
+2023-06-14 00:01:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/a_Logout")): Object: 'Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/a_Logout' is clicked on
+
+2023-06-14 00:01:30 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/a_Logout' is clicked on
+
+2023-06-14 00:01:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-14 00:01:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Orange HRM Automation Demo" time="29.498" classname="Test Cases/Orange HRM Automation Demo" status="PASSED">
+         <system-out><![CDATA[2023-06-14 00:01:32 - [TEST_CASE][PASSED] - Test Cases/Orange HRM Automation Demo: Test Cases/Orange HRM Automation Demo
+
+2023-06-14 00:01:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-14 00:01:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-14 00:01:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-14 00:01:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-14 00:01:34 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-06-14 00:01:38 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-06-14 00:01:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/input_Username_username'
+
+2023-06-14 00:01:39 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/input_Username_username'
+
+2023-06-14 00:01:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/input_Password_password'
+
+2023-06-14 00:01:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/input_Password_password'
+
+2023-06-14 00:01:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/input_Password_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/input_Password_password'
+
+2023-06-14 00:01:41 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/input_Password_password'
+
+2023-06-14 00:01:41 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("full_view", CONTINUE_ON_FAILURE): Taking screenshot successfully
+
+2023-06-14 00:01:44 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-06-14 00:01:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-full_view.png]]
+
+2023-06-14 00:01:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/i_Today_oxd-icon bi-stopwatch")): Object: 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/i_Today_oxd-icon bi-stopwatch' is clicked on
+
+2023-06-14 00:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/i_Today_oxd-icon bi-stopwatch' is clicked on
+
+2023-06-14 00:01:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/span_Reports")): Object: 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/span_Reports' is clicked on
+
+2023-06-14 00:01:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/span_Reports' is clicked on
+
+2023-06-14 00:01:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/a_Project Reports")): Object: 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/a_Project Reports' is clicked on
+
+2023-06-14 00:01:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/a_Project Reports' is clicked on
+
+2023-06-14 00:01:48 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("full_view", CONTINUE_ON_FAILURE): Taking screenshot successfully
+
+2023-06-14 00:01:49 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-06-14 00:01:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-full_view.png]]
+
+2023-06-14 00:01:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/a_Admin")): Object: 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/a_Admin' is clicked on
+
+2023-06-14 00:01:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/a_Admin' is clicked on
+
+2023-06-14 00:01:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/i_Enabled_oxd-icon bi-check oxd-checkbox-in_111cd0")): Object: 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/i_Enabled_oxd-icon bi-check oxd-checkbox-in_111cd0' is clicked on
+
+2023-06-14 00:01:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/i_Enabled_oxd-icon bi-check oxd-checkbox-in_111cd0' is clicked on
+
+2023-06-14 00:01:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/i_Enabled_oxd-icon bi-trash")): Object: 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/i_Enabled_oxd-icon bi-trash' is clicked on
+
+2023-06-14 00:01:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/i_Enabled_oxd-icon bi-trash' is clicked on
+
+2023-06-14 00:01:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/i_Yes, Delete_oxd-icon bi-trash oxd-button-icon")): Object: 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/i_Yes, Delete_oxd-icon bi-trash oxd-button-icon' is clicked on
+
+2023-06-14 00:01:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/i_Yes, Delete_oxd-icon bi-trash oxd-button-icon' is clicked on
+
+2023-06-14 00:01:53 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("full_view", CONTINUE_ON_FAILURE): Taking screenshot successfully
+
+2023-06-14 00:01:54 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-06-14 00:01:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-full_view.png]]
+
+2023-06-14 00:01:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/span_Performance")): Object: 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/span_Performance' is clicked on
+
+2023-06-14 00:01:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/span_Performance' is clicked on
+
+2023-06-14 00:01:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/a_Time")): Object: 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/a_Time' is clicked on
+
+2023-06-14 00:01:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/a_Time' is clicked on
+
+2023-06-14 00:01:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/span_Magdalena Lozowska-Pereira kim")): Object: 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/span_Magdalena Lozowska-Pereira kim' is clicked on
+
+2023-06-14 00:01:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/span_Magdalena Lozowska-Pereira kim' is clicked on
+
+2023-06-14 00:01:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/a_Logout")): Object: 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/a_Logout' is clicked on
+
+2023-06-14 00:02:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/a_Logout' is clicked on
+
+2023-06-14 00:02:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-14 00:02:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-14 00:00:26 - [TEST_SUITE][PASSED] - Web Automation New Suite: Test Cases/Orange HRM Automation Demo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

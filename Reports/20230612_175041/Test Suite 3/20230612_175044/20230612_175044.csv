@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 3,Chrome 114.0.0.0,,,2023-06-12 17:50:57,2023-06-12 17:51:30,33.338s,PASSED
+,,,,,,,
+Test Cases/GetUser,Chrome 114.0.0.0,,,2023-06-12 17:50:58,2023-06-12 17:51:09,10.912s,PASSED
+"requestObject = findTestObject(""APIServiceRequest"")",Chrome 114.0.0.0,,,2023-06-12 17:51:00,2023-06-12 17:51:02,2.189s,PASSED
+jsonslurper = new groovy.json.JsonSlurper(),Chrome 114.0.0.0,,,2023-06-12 17:51:02,2023-06-12 17:51:03,0.056s,PASSED
+"conTentType = new com.kms.katalon.core.testobject.TestObjectProperty(Content-Type, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json)",Chrome 114.0.0.0,,,2023-06-12 17:51:03,2023-06-12 17:51:03,0.159s,PASSED
+"acceptHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Accept, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json)",Chrome 114.0.0.0,,,2023-06-12 17:51:03,2023-06-12 17:51:03,0.032s,PASSED
+"requestObject.setHttpHeaderProperties(Arrays.asList(conTentType, acceptHeader))",Chrome 114.0.0.0,,,2023-06-12 17:51:03,2023-06-12 17:51:03,0.158s,PASSED
+responseObject = sendRequest(requestObject),Chrome 114.0.0.0,,,2023-06-12 17:51:03,2023-06-12 17:51:09,6.228s,PASSED
+responsevalue = jsonslurper.parseText(responseObject.getResponseText()),Chrome 114.0.0.0,,,2023-06-12 17:51:09,2023-06-12 17:51:09,0.067s,PASSED
+"Assert.assertEquals(200, responseObject.getStatusCode())",Chrome 114.0.0.0,,,2023-06-12 17:51:09,2023-06-12 17:51:09,0.121s,PASSED
+"println(""Status Code "" + responseObject.getStatusCode())",Chrome 114.0.0.0,,,2023-06-12 17:51:09,2023-06-12 17:51:09,0.015s,PASSED
+"println(""responsevalue "" + responsevalue)",Chrome 114.0.0.0,,,2023-06-12 17:51:09,2023-06-12 17:51:09,0.004s,PASSED
+,,,,,,,
+Test Cases/Sauce-WebApp-Automation,Chrome 114.0.0.0,Sauce Labs Web App UI Automation,Sauce,2023-06-12 17:51:09,2023-06-12 17:51:30,20.782s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-12 17:51:10,2023-06-12 17:51:18,8.065s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 114.0.0.0,,,2023-06-12 17:51:18,2023-06-12 17:51:19,0.904s,PASSED
+"setText(findTestObject(""Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Chrome 114.0.0.0,,,2023-06-12 17:51:19,2023-06-12 17:51:21,1.616s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/input_Swag Labs_password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 114.0.0.0,,,2023-06-12 17:51:21,2023-06-12 17:51:22,0.747s,PASSED
+"click(findTestObject(""Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 114.0.0.0,,,2023-06-12 17:51:22,2023-06-12 17:51:23,0.836s,PASSED
+"click(findTestObject(""Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/button_Add to cart""))",Chrome 114.0.0.0,,,2023-06-12 17:51:23,2023-06-12 17:51:23,0.568s,PASSED
+"click(findTestObject(""Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/button_Add to cart_1""))",Chrome 114.0.0.0,,,2023-06-12 17:51:23,2023-06-12 17:51:24,0.558s,PASSED
+"click(findTestObject(""Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/img_Remove_inventory_item_img""))",Chrome 114.0.0.0,,,2023-06-12 17:51:24,2023-06-12 17:51:24,0.699s,PASSED
+"click(findTestObject(""Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/button_Add to cart_1_2""))",Chrome 114.0.0.0,,,2023-06-12 17:51:24,2023-06-12 17:51:25,0.611s,PASSED
+"click(findTestObject(""Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/img_Back to products_back-image""))",Chrome 114.0.0.0,,,2023-06-12 17:51:25,2023-06-12 17:51:26,0.605s,PASSED
+"click(findTestObject(""Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/button_Open Menu""))",Chrome 114.0.0.0,,,2023-06-12 17:51:26,2023-06-12 17:51:26,0.527s,PASSED
+"click(findTestObject(""Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/a_Logout""))",Chrome 114.0.0.0,,,2023-06-12 17:51:26,2023-06-12 17:51:27,0.655s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-12 17:51:27,2023-06-12 17:51:30,3.406s,PASSED

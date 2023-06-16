@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_ACME_os-icon os-icon-mail-14</name>
+   <tag></tag>
+   <elementGuidId>49e782fa-c2cd-466c-9f2f-f471c7776b73</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.os-icon.os-icon-mail-14</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>51f23df1-ed3d-4c4a-93e7-4f808d53271f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>os-icon os-icon-mail-14</value>
+      <webElementGuid>920bbee6-6529-43c5-be8e-27653bf2c3a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;menu-position-side menu-side-left full-screen&quot;]/div[@class=&quot;all-wrapper solid-bg-all&quot;]/div[@class=&quot;top-bar color-scheme-bright&quot;]/div[@class=&quot;top-menu-controls&quot;]/div[@class=&quot;messages-notifications os-dropdown-trigger os-dropdown-position-left&quot;]/i[@class=&quot;os-icon os-icon-mail-14&quot;]</value>
+      <webElementGuid>64a91b7d-9823-45f6-b099-0231ff6f6d08</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>8deb31f2-7462-4419-9615-b1429c4627bd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

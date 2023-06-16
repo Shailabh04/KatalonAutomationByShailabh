@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_View Statement_os-icon os-icon-arrow-right4</name>
+   <tag></tag>
+   <elementGuidId>9eed1dec-6f13-4859-b27d-c910b61f4294</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.os-icon.os-icon-arrow-right4</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>aa1c6f05-4afe-4087-892d-a16db7793ac0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>os-icon os-icon-arrow-right4</value>
+      <webElementGuid>5026b9b3-447e-4f37-ab5e-eb1ff600bf32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;menu-position-side menu-side-left full-screen&quot;]/div[@class=&quot;all-wrapper solid-bg-all&quot;]/div[@class=&quot;layout-w&quot;]/div[@class=&quot;content-w&quot;]/div[@class=&quot;content-i&quot;]/div[@class=&quot;content-box&quot;]/div[@class=&quot;element-wrapper compact pt-4&quot;]/div[@class=&quot;element-box-tp&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12 col-xxl-12&quot;]/div[@class=&quot;element-balances&quot;]/div[@class=&quot;balance hidden-mobile&quot;]/div[@class=&quot;balance-link&quot;]/a[@class=&quot;btn btn-link btn-underlined&quot;]/i[@class=&quot;os-icon os-icon-arrow-right4&quot;]</value>
+      <webElementGuid>314cc148-730f-48fb-a408-a47f0c466b87</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/a/i</value>
+      <webElementGuid>8266904b-272b-4aa3-9134-6ecb65d34c8b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

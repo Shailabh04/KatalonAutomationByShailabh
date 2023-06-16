@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Finance</name>
+   <tag></tag>
+   <elementGuidId>8b37221c-6456-4154-946d-65cc195dfef7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.badge.badge-danger</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Finance')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>bbbdc637-e8ed-4452-b3c2-20db77fd5e15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>badge badge-danger</value>
+      <webElementGuid>34a7e349-99eb-417b-a221-39b201af90cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Finance</value>
+      <webElementGuid>20ea342f-be4b-4ef8-b9c6-6145477d38f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;menu-position-side menu-side-left full-screen&quot;]/div[@class=&quot;all-wrapper solid-bg-all&quot;]/div[@class=&quot;layout-w&quot;]/div[@class=&quot;content-w&quot;]/div[@class=&quot;content-i&quot;]/div[@class=&quot;content-box&quot;]/div[@class=&quot;element-wrapper&quot;]/div[@class=&quot;element-box-tp&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-padded&quot;]/tbody[1]/tr[2]/td[@class=&quot;text-center&quot;]/a[@class=&quot;badge badge-danger&quot;]</value>
+      <webElementGuid>acf61a40-69a2-449b-a036-8b287da661ff</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Finance')]</value>
+      <webElementGuid>b7ec04d6-b9a6-497c-ad9c-a06aebc34d7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stripe Payment Processing'])[1]/following::a[1]</value>
+      <webElementGuid>e699a972-2281-4744-b869-07999657ffa1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jan 19th'])[1]/following::a[1]</value>
+      <webElementGuid>19abce47-d3f1-4eca-ab8b-69c8c90574e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+ 952.23 USD'])[1]/preceding::a[1]</value>
+      <webElementGuid>ece9cd0a-30ed-48b3-8296-43d2126326ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pending'])[1]/preceding::a[1]</value>
+      <webElementGuid>06868198-34a6-4978-8e6b-2f4784876edd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Finance']/parent::*</value>
+      <webElementGuid>cde75d48-c298-42c0-b669-09b0a18782fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '')])[29]</value>
+      <webElementGuid>4d0434bf-3ec1-4ab5-87ce-4dd2c8817431</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[4]/a</value>
+      <webElementGuid>eec15b51-206d-4be8-828a-4ceec5bd2c49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Finance' or . = 'Finance')]</value>
+      <webElementGuid>6784a3f4-8fd2-40c4-987f-a43f0391568b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,79 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Web Automation New Suite,Chrome 114.0.0.0,,,2023-06-13 23:55:32,2023-06-13 23:57:11,1m - 38.321s,PASSED
+,,,,,,,
+Test Cases/Tricentis Sample App Auto Insurance Automation,Chrome 114.0.0.0,,,2023-06-13 23:55:33,2023-06-13 23:56:26,53.496s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-13 23:55:34,2023-06-13 23:55:38,4.043s,PASSED
+"navigateToUrl(""http://sampleapp.tricentis.com/101/"")",Chrome 114.0.0.0,,,2023-06-13 23:55:38,2023-06-13 23:55:41,2.813s,PASSED
+"click(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Tricentis Vehicle Insurance/a_Automobile""))",Chrome 114.0.0.0,,,2023-06-13 23:55:41,2023-06-13 23:55:43,1.972s,PASSED
+"setText(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_Engine Performance kW_kW""), ""4324"")",Chrome 114.0.0.0,,,2023-06-13 23:55:43,2023-06-13 23:55:44,1.004s,PASSED
+"setText(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_Date of Manufacture_Date of Manufacture""), """")",Chrome 114.0.0.0,,,2023-06-13 23:55:44,2023-06-13 23:55:44,0.899s,PASSED
+"click(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_Date of Manufacture_Date of Manufacture""))",Chrome 114.0.0.0,,,2023-06-13 23:55:44,2023-06-13 23:55:45,0.473s,PASSED
+"takeScreenshotAsCheckpoint(""full_view"", CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-06-13 23:55:45,2023-06-13 23:55:46,0.840s,PASSED
+"setText(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_Engine Performance kW_kW""), ""2000"")",Chrome 114.0.0.0,,,2023-06-13 23:55:46,2023-06-13 23:55:47,1.094s,PASSED
+"setText(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_Date of Manufacture_Date of Manufacture""), ""04/04/2020"")",Chrome 114.0.0.0,,,2023-06-13 23:55:47,2023-06-13 23:55:48,1.095s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/select_please select                       _9e925e""), ""default"", true)",Chrome 114.0.0.0,,,2023-06-13 23:55:48,2023-06-13 23:55:49,1.504s,PASSED
+"takeScreenshotAsCheckpoint(""full_view"", CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-06-13 23:55:49,2023-06-13 23:55:50,0.513s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/select_please select                       _9e925e""), ""4"", true)",Chrome 114.0.0.0,,,2023-06-13 23:55:50,2023-06-13 23:55:51,1.385s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/select_please select                       _b55154""), ""Diesel"", true)",Chrome 114.0.0.0,,,2023-06-13 23:55:51,2023-06-13 23:55:53,1.333s,PASSED
+"setText(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_List Price_List Price""), ""5000"")",Chrome 114.0.0.0,,,2023-06-13 23:55:53,2023-06-13 23:55:54,0.895s,PASSED
+"takeScreenshotAsCheckpoint(""full_view"", CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-06-13 23:55:54,2023-06-13 23:55:54,0.804s,PASSED
+"setText(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_License Plate Number_License Plate Number""), ""LIC4638"")",Chrome 114.0.0.0,,,2023-06-13 23:55:54,2023-06-13 23:55:56,1.149s,PASSED
+"setText(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/input_Annual Mileage mi_Annual Mileage""), ""450"")",Chrome 114.0.0.0,,,2023-06-13 23:55:56,2023-06-13 23:55:56,0.910s,PASSED
+"click(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Vehicle Data/button_Next""))",Chrome 114.0.0.0,,,2023-06-13 23:55:56,2023-06-13 23:55:57,0.545s,PASSED
+"setText(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_First Name_First Name""), ""first name"")",Chrome 114.0.0.0,,,2023-06-13 23:55:57,2023-06-13 23:55:59,2.144s,PASSED
+"setText(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_Last Name_Last Name""), ""lastname"")",Chrome 114.0.0.0,,,2023-06-13 23:55:59,2023-06-13 23:56:00,1.360s,PASSED
+"click(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_Last Name_Last Name""))",Chrome 114.0.0.0,,,2023-06-13 23:56:00,2023-06-13 23:56:01,0.573s,PASSED
+"setText(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_First Name_First Name""), ""firstname"")",Chrome 114.0.0.0,,,2023-06-13 23:56:01,2023-06-13 23:56:02,1.382s,PASSED
+"click(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/span_Male_ideal-radio""))",Chrome 114.0.0.0,,,2023-06-13 23:56:02,2023-06-13 23:56:03,0.888s,PASSED
+"click(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/button_Date of Birth_Open Date of Birth Calender""))",Chrome 114.0.0.0,,,2023-06-13 23:56:03,2023-06-13 23:56:04,0.693s,PASSED
+"click(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/a_6""))",Chrome 114.0.0.0,,,2023-06-13 23:56:04,2023-06-13 23:56:05,0.667s,PASSED
+"click(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/button_Date of Birth_Open Date of Birth Calender""))",Chrome 114.0.0.0,,,2023-06-13 23:56:05,2023-06-13 23:56:05,0.562s,PASSED
+"setText(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_Date of Birth_Date of Birth""), ""06/06/2000"")",Chrome 114.0.0.0,,,2023-06-13 23:56:05,2023-06-13 23:56:07,1.304s,PASSED
+"setText(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_Street Address_Street Address""), ""street address"")",Chrome 114.0.0.0,,,2023-06-13 23:56:07,2023-06-13 23:56:08,1.056s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/select_please select AfghanistanAlbaniaAlge_c83022""), ""default"", true)",Chrome 114.0.0.0,,,2023-06-13 23:56:08,2023-06-13 23:56:13,5.856s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/select_please select AfghanistanAlbaniaAlge_c83022""), ""Bangladesh"", true)",Chrome 114.0.0.0,,,2023-06-13 23:56:13,2023-06-13 23:56:19,5.395s,PASSED
+"setText(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_Zip Code_Zip Code""), ""23442"")",Chrome 114.0.0.0,,,2023-06-13 23:56:19,2023-06-13 23:56:20,0.957s,PASSED
+"setText(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_City_City""), ""columbo"")",Chrome 114.0.0.0,,,2023-06-13 23:56:20,2023-06-13 23:56:21,0.924s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/select_please select                       _4c6253""), ""default"", true)",Chrome 114.0.0.0,,,2023-06-13 23:56:21,2023-06-13 23:56:22,1.134s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/select_please select                       _4c6253""), ""Employee"", true)",Chrome 114.0.0.0,,,2023-06-13 23:56:22,2023-06-13 23:56:23,1.166s,PASSED
+"click(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/span_Speeding_ideal-check""))",Chrome 114.0.0.0,,,2023-06-13 23:56:23,2023-06-13 23:56:23,0.444s,PASSED
+"setText(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/input_Website_Website""), ""website.com"")",Chrome 114.0.0.0,,,2023-06-13 23:56:23,2023-06-13 23:56:24,0.996s,PASSED
+"click(findTestObject(""Object Repository/Tricentis Sample App Auto Insurance Automation/Page_Enter Insurant Data/button_Next""))",Chrome 114.0.0.0,,,2023-06-13 23:56:24,2023-06-13 23:56:25,0.499s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-13 23:56:25,2023-06-13 23:56:26,1.348s,PASSED
+,,,,,,,
+Test Cases/Sauce-WebApp-Automation,Chrome 114.0.0.0,Sauce Labs Web App UI Automation,Sauce,2023-06-13 23:56:26,2023-06-13 23:56:37,10.586s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-13 23:56:27,2023-06-13 23:56:29,2.146s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 114.0.0.0,,,2023-06-13 23:56:29,2023-06-13 23:56:30,0.766s,PASSED
+"setText(findTestObject(""Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Chrome 114.0.0.0,,,2023-06-13 23:56:30,2023-06-13 23:56:31,1.071s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/input_Swag Labs_password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 114.0.0.0,,,2023-06-13 23:56:31,2023-06-13 23:56:32,0.579s,PASSED
+"click(findTestObject(""Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 114.0.0.0,,,2023-06-13 23:56:32,2023-06-13 23:56:32,0.562s,PASSED
+"click(findTestObject(""Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/button_Add to cart""))",Chrome 114.0.0.0,,,2023-06-13 23:56:32,2023-06-13 23:56:33,0.462s,PASSED
+"click(findTestObject(""Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/button_Add to cart_1""))",Chrome 114.0.0.0,,,2023-06-13 23:56:33,2023-06-13 23:56:33,0.556s,PASSED
+"click(findTestObject(""Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/img_Remove_inventory_item_img""))",Chrome 114.0.0.0,,,2023-06-13 23:56:33,2023-06-13 23:56:34,0.591s,PASSED
+"click(findTestObject(""Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/button_Add to cart_1_2""))",Chrome 114.0.0.0,,,2023-06-13 23:56:34,2023-06-13 23:56:34,0.581s,PASSED
+"click(findTestObject(""Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/img_Back to products_back-image""))",Chrome 114.0.0.0,,,2023-06-13 23:56:34,2023-06-13 23:56:35,0.567s,PASSED
+"click(findTestObject(""Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/button_Open Menu""))",Chrome 114.0.0.0,,,2023-06-13 23:56:35,2023-06-13 23:56:36,0.536s,PASSED
+"click(findTestObject(""Object Repository/SauceDemo-ObjectRepo-1/Page_Swag Labs/a_Logout""))",Chrome 114.0.0.0,,,2023-06-13 23:56:36,2023-06-13 23:56:36,0.564s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-13 23:56:36,2023-06-13 23:56:37,0.850s,PASSED
+,,,,,,,
+Test Cases/Orange HRM Automation Demo,Chrome 114.0.0.0,,,2023-06-13 23:56:37,2023-06-13 23:57:11,33.700s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-13 23:56:37,2023-06-13 23:56:39,1.816s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 114.0.0.0,,,2023-06-13 23:56:39,2023-06-13 23:56:43,4.125s,PASSED
+"setText(findTestObject(""Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 114.0.0.0,,,2023-06-13 23:56:43,2023-06-13 23:56:46,2.518s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 114.0.0.0,,,2023-06-13 23:56:46,2023-06-13 23:56:47,0.688s,PASSED
+"sendKeys(findTestObject(""Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/input_Password_password""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-06-13 23:56:47,2023-06-13 23:56:48,1.684s,PASSED
+"takeScreenshotAsCheckpoint(""full_view"", CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-06-13 23:56:48,2023-06-13 23:56:51,2.374s,PASSED
+"click(findTestObject(""Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/i_Today_oxd-icon bi-stopwatch""))",Chrome 114.0.0.0,,,2023-06-13 23:56:51,2023-06-13 23:56:52,1.045s,PASSED
+"click(findTestObject(""Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/span_Reports""))",Chrome 114.0.0.0,,,2023-06-13 23:56:52,2023-06-13 23:56:54,2.704s,PASSED
+"click(findTestObject(""Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/a_Project Reports""))",Chrome 114.0.0.0,,,2023-06-13 23:56:54,2023-06-13 23:56:55,0.978s,PASSED
+"takeScreenshotAsCheckpoint(""full_view"", CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-06-13 23:56:55,2023-06-13 23:56:56,0.718s,PASSED
+"click(findTestObject(""Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/a_Admin""))",Chrome 114.0.0.0,,,2023-06-13 23:56:56,2023-06-13 23:56:58,1.894s,PASSED
+"click(findTestObject(""Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/i_Enabled_oxd-icon bi-check oxd-checkbox-in_111cd0""))",Chrome 114.0.0.0,,,2023-06-13 23:56:58,2023-06-13 23:57:00,2.164s,PASSED
+"click(findTestObject(""Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/i_Enabled_oxd-icon bi-trash""))",Chrome 114.0.0.0,,,2023-06-13 23:57:00,2023-06-13 23:57:01,0.649s,PASSED
+"click(findTestObject(""Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/i_Yes, Delete_oxd-icon bi-trash oxd-button-icon""))",Chrome 114.0.0.0,,,2023-06-13 23:57:01,2023-06-13 23:57:02,0.921s,PASSED
+"takeScreenshotAsCheckpoint(""full_view"", CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-06-13 23:57:02,2023-06-13 23:57:03,1.192s,PASSED
+"click(findTestObject(""Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/span_Performance""))",Chrome 114.0.0.0,,,2023-06-13 23:57:03,2023-06-13 23:57:05,1.927s,PASSED
+"click(findTestObject(""Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/a_Time""))",Chrome 114.0.0.0,,,2023-06-13 23:57:05,2023-06-13 23:57:07,2.093s,PASSED
+"click(findTestObject(""Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/span_Magdalena Lozowska-Pereira kim""))",Chrome 114.0.0.0,,,2023-06-13 23:57:07,2023-06-13 23:57:08,1.470s,PASSED
+"click(findTestObject(""Object Repository/Orange HRM Automation Demo/Page_OrangeHRM/a_Logout""))",Chrome 114.0.0.0,,,2023-06-13 23:57:08,2023-06-13 23:57:10,1.331s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-13 23:57:10,2023-06-13 23:57:11,0.854s,PASSED

@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 1,,,,2023-06-12 17:48:36,2023-06-12 17:48:50,13.237s,PASSED
+,,,,,,,
+Test Cases/API Delete Test Case 1,,,,2023-06-12 17:48:37,2023-06-12 17:48:44,7.087s,PASSED
+"requestObject = findTestObject(""APIDeleteTestCase1"")",,,,2023-06-12 17:48:38,2023-06-12 17:48:39,0.885s,PASSED
+jsonslurper = new groovy.json.JsonSlurper(),,,,2023-06-12 17:48:39,2023-06-12 17:48:39,0.018s,PASSED
+"conTentType = new com.kms.katalon.core.testobject.TestObjectProperty(Content-Type, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json)",,,,2023-06-12 17:48:39,2023-06-12 17:48:39,0.061s,PASSED
+"acceptHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Accept, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json)",,,,2023-06-12 17:48:39,2023-06-12 17:48:39,0.002s,PASSED
+"requestObject.setHttpHeaderProperties(Arrays.asList(conTentType, acceptHeader))",,,,2023-06-12 17:48:39,2023-06-12 17:48:39,0.096s,PASSED
+responseObject = sendRequest(requestObject),,,,2023-06-12 17:48:39,2023-06-12 17:48:44,5.186s,PASSED
+"Assert.assertEquals(204, responseObject.getStatusCode())",,,,2023-06-12 17:48:44,2023-06-12 17:48:44,0.146s,PASSED
+"println(""Status Code "" + responseObject.getStatusCode())",,,,2023-06-12 17:48:44,2023-06-12 17:48:44,0.012s,PASSED
+,,,,,,,
+Test Cases/API Patch Test Case 1,,,,2023-06-12 17:48:44,2023-06-12 17:48:46,2.013s,PASSED
+"requestObject = findTestObject(""APIPatchTestCase1"")",,,,2023-06-12 17:48:45,2023-06-12 17:48:46,0.493s,PASSED
+jsonslurper = new groovy.json.JsonSlurper(),,,,2023-06-12 17:48:46,2023-06-12 17:48:46,0.002s,PASSED
+"conTentType = new com.kms.katalon.core.testobject.TestObjectProperty(Content-Type, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json)",,,,2023-06-12 17:48:46,2023-06-12 17:48:46,0.006s,PASSED
+"acceptHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Accept, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json)",,,,2023-06-12 17:48:46,2023-06-12 17:48:46,0.002s,PASSED
+"requestObject.setHttpHeaderProperties(Arrays.asList(conTentType, acceptHeader))",,,,2023-06-12 17:48:46,2023-06-12 17:48:46,0.002s,PASSED
+responseObject = sendRequest(requestObject),,,,2023-06-12 17:48:46,2023-06-12 17:48:46,0.628s,PASSED
+responsevalue = jsonslurper.parseText(responseObject.getResponseText()),,,,2023-06-12 17:48:46,2023-06-12 17:48:46,0.015s,PASSED
+"Assert.assertEquals(200, responseObject.getStatusCode())",,,,2023-06-12 17:48:46,2023-06-12 17:48:46,0.002s,PASSED
+"println(""Status Code "" + responseObject.getStatusCode())",,,,2023-06-12 17:48:46,2023-06-12 17:48:46,0.002s,PASSED
+"println(""responsevalue "" + responsevalue)",,,,2023-06-12 17:48:46,2023-06-12 17:48:46,0.007s,PASSED
+,,,,,,,
+Test Cases/API Test Case 1,,,,2023-06-12 17:48:46,2023-06-12 17:48:47,1.030s,PASSED
+"requestObject = findTestObject(""APIServiceRequest1"")",,,,2023-06-12 17:48:47,2023-06-12 17:48:47,0.181s,PASSED
+jsonslurper = new groovy.json.JsonSlurper(),,,,2023-06-12 17:48:47,2023-06-12 17:48:47,0.002s,PASSED
+"conTentType = new com.kms.katalon.core.testobject.TestObjectProperty(Content-Type, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json)",,,,2023-06-12 17:48:47,2023-06-12 17:48:47,0.011s,PASSED
+"acceptHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Accept, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json)",,,,2023-06-12 17:48:47,2023-06-12 17:48:47,0.004s,PASSED
+"requestObject.setHttpHeaderProperties(Arrays.asList(conTentType, acceptHeader))",,,,2023-06-12 17:48:47,2023-06-12 17:48:47,0.001s,PASSED
+responseObject = sendRequest(requestObject),,,,2023-06-12 17:48:47,2023-06-12 17:48:47,0.285s,PASSED
+responsevalue = jsonslurper.parseText(responseObject.getResponseText()),,,,2023-06-12 17:48:47,2023-06-12 17:48:47,0.181s,PASSED
+"Assert.assertEquals(200, responseObject.getStatusCode())",,,,2023-06-12 17:48:47,2023-06-12 17:48:47,0.003s,PASSED
+"println(""Status Code "" + responseObject.getStatusCode())",,,,2023-06-12 17:48:47,2023-06-12 17:48:47,0.002s,PASSED
+"println(""responsevalue "" + responsevalue)",,,,2023-06-12 17:48:47,2023-06-12 17:48:47,0.001s,PASSED
+,,,,,,,
+Test Cases/API Test Case,,Api Testing should be performed here.,,2023-06-12 17:48:47,2023-06-12 17:48:50,2.345s,PASSED
+return null,,,,2023-06-12 17:48:50,2023-06-12 17:48:50,0.004s,PASSED

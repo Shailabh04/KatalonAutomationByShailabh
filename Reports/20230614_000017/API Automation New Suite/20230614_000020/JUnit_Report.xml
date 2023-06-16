@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="API Automation New Suite" time="8.141" tests="5" failures="0" errors="0">
+   <testsuite name="API Automation New Suite" tests="5" failures="0" errors="0" time="8.141" skipped="0" timestamp="2023-06-14 00:02:08" hostname="4817 - XCVDI-CTX210.xipl.local" id="Test Suites/API Automation New Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\4817\\Katalon Studio\\My First Web UI Project\\Reports\\20230614_000017\\API Automation New Suite\\20230614_000020"/>
+         <property name="logFiles" value="C:\\Users\\4817\\Katalon Studio\\My First Web UI Project\\Reports\\20230614_000017\\API Automation New Suite\\20230614_000020\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="4817 - XCVDI-CTX210.xipl.local"/>
+         <property name="hostAddress" value="10.210.44.46"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+      </properties>
+      <testcase name="Test Cases/APIDeleteRequestDeleteSecond" time="4.392" classname="Test Cases/APIDeleteRequestDeleteSecond" status="PASSED">
+         <system-out><![CDATA[2023-06-14 00:02:09 - [TEST_CASE][PASSED] - Test Cases/APIDeleteRequestDeleteSecond: Test Cases/APIDeleteRequestDeleteSecond
+
+2023-06-14 00:02:09 - [TEST_STEP][PASSED] - requestObject = findTestObject("APIDeleteRequestDeleteSecond"): null
+
+2023-06-14 00:02:09 - [TEST_STEP][PASSED] - jsonslurper = new groovy.json.JsonSlurper(): null
+
+2023-06-14 00:02:09 - [TEST_STEP][PASSED] - conTentType = new com.kms.katalon.core.testobject.TestObjectProperty(Content-Type, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json): null
+
+2023-06-14 00:02:09 - [TEST_STEP][PASSED] - acceptHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Accept, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json): null
+
+2023-06-14 00:02:09 - [TEST_STEP][PASSED] - requestObject.setHttpHeaderProperties(Arrays.asList(conTentType, acceptHeader)): null
+
+2023-06-14 00:02:09 - [TEST_STEP][PASSED] - responseObject = sendRequest(requestObject): Send request successfully
+
+2023-06-14 00:02:13 - [MESSAGE][INFO] - HAR: C:\Users\4817\Katalon Studio\My First Web UI Project\Reports\20230614_000017\API Automation New Suite\20230614_000020\requests\main\0.har
+
+2023-06-14 00:02:13 - [MESSAGE][PASSED] - Send request successfully
+
+2023-06-14 00:02:13 - [TEST_STEP][PASSED] - Assert.assertEquals(204, responseObject.getStatusCode()): null
+
+2023-06-14 00:02:13 - [TEST_STEP][PASSED] - println("Status Code " + responseObject.getStatusCode()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/APIGetRequestDelayedResponse" time="1.014" classname="Test Cases/APIGetRequestDelayedResponse" status="PASSED">
+         <system-out><![CDATA[2023-06-14 00:02:13 - [TEST_CASE][PASSED] - Test Cases/APIGetRequestDelayedResponse: Test Cases/APIGetRequestDelayedResponse
+
+2023-06-14 00:02:13 - [TEST_STEP][PASSED] - requestObject = findTestObject("APIGetRequestDelayedResponse"): null
+
+2023-06-14 00:02:13 - [TEST_STEP][PASSED] - jsonslurper = new groovy.json.JsonSlurper(): null
+
+2023-06-14 00:02:13 - [TEST_STEP][PASSED] - conTentType = new com.kms.katalon.core.testobject.TestObjectProperty(Content-Type, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json): null
+
+2023-06-14 00:02:13 - [TEST_STEP][PASSED] - acceptHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Accept, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json): null
+
+2023-06-14 00:02:13 - [TEST_STEP][PASSED] - requestObject.setHttpHeaderProperties(Arrays.asList(conTentType, acceptHeader)): null
+
+2023-06-14 00:02:13 - [TEST_STEP][PASSED] - responseObject = sendRequest(requestObject): Send request successfully
+
+2023-06-14 00:02:14 - [MESSAGE][INFO] - HAR: C:\Users\4817\Katalon Studio\My First Web UI Project\Reports\20230614_000017\API Automation New Suite\20230614_000020\requests\main\1.har
+
+2023-06-14 00:02:14 - [MESSAGE][PASSED] - Send request successfully
+
+2023-06-14 00:02:14 - [TEST_STEP][PASSED] - responsevalue = jsonslurper.parseText(responseObject.getResponseText()): null
+
+2023-06-14 00:02:14 - [TEST_STEP][PASSED] - Assert.assertEquals(200, responseObject.getStatusCode()): null
+
+2023-06-14 00:02:14 - [TEST_STEP][PASSED] - println("Status Code " + responseObject.getStatusCode()): null
+
+2023-06-14 00:02:14 - [TEST_STEP][PASSED] - println("responsevalue " + responsevalue): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/APIGetRequestListResource" time="0.605" classname="Test Cases/APIGetRequestListResource" status="PASSED">
+         <system-out><![CDATA[2023-06-14 00:02:14 - [TEST_CASE][PASSED] - Test Cases/APIGetRequestListResource: Test Cases/APIGetRequestListResource
+
+2023-06-14 00:02:14 - [TEST_STEP][PASSED] - requestObject = findTestObject("APIGetRequestListResource"): null
+
+2023-06-14 00:02:14 - [TEST_STEP][PASSED] - jsonslurper = new groovy.json.JsonSlurper(): null
+
+2023-06-14 00:02:14 - [TEST_STEP][PASSED] - conTentType = new com.kms.katalon.core.testobject.TestObjectProperty(Content-Type, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json): null
+
+2023-06-14 00:02:15 - [TEST_STEP][PASSED] - acceptHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Accept, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json): null
+
+2023-06-14 00:02:15 - [TEST_STEP][PASSED] - requestObject.setHttpHeaderProperties(Arrays.asList(conTentType, acceptHeader)): null
+
+2023-06-14 00:02:15 - [TEST_STEP][PASSED] - responseObject = sendRequest(requestObject): Send request successfully
+
+2023-06-14 00:02:15 - [MESSAGE][INFO] - HAR: C:\Users\4817\Katalon Studio\My First Web UI Project\Reports\20230614_000017\API Automation New Suite\20230614_000020\requests\main\2.har
+
+2023-06-14 00:02:15 - [MESSAGE][PASSED] - Send request successfully
+
+2023-06-14 00:02:15 - [TEST_STEP][PASSED] - responsevalue = jsonslurper.parseText(responseObject.getResponseText()): null
+
+2023-06-14 00:02:15 - [TEST_STEP][PASSED] - Assert.assertEquals(200, responseObject.getStatusCode()): null
+
+2023-06-14 00:02:15 - [TEST_STEP][PASSED] - println("Status Code " + responseObject.getStatusCode()): null
+
+2023-06-14 00:02:15 - [TEST_STEP][PASSED] - println("responsevalue " + responsevalue): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/APIGetRequestNotFound" time="0.875" classname="Test Cases/APIGetRequestNotFound" status="PASSED">
+         <system-out><![CDATA[2023-06-14 00:02:15 - [TEST_CASE][PASSED] - Test Cases/APIGetRequestNotFound: Test Cases/APIGetRequestNotFound
+
+2023-06-14 00:02:15 - [TEST_STEP][PASSED] - requestObject = findTestObject("APIGetRequestNotFound"): null
+
+2023-06-14 00:02:15 - [TEST_STEP][PASSED] - jsonslurper = new groovy.json.JsonSlurper(): null
+
+2023-06-14 00:02:15 - [TEST_STEP][PASSED] - conTentType = new com.kms.katalon.core.testobject.TestObjectProperty(Content-Type, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json): null
+
+2023-06-14 00:02:15 - [TEST_STEP][PASSED] - acceptHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Accept, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json): null
+
+2023-06-14 00:02:15 - [TEST_STEP][PASSED] - requestObject.setHttpHeaderProperties(Arrays.asList(conTentType, acceptHeader)): null
+
+2023-06-14 00:02:15 - [TEST_STEP][PASSED] - responseObject = sendRequest(requestObject): Send request successfully
+
+2023-06-14 00:02:16 - [MESSAGE][INFO] - HAR: C:\Users\4817\Katalon Studio\My First Web UI Project\Reports\20230614_000017\API Automation New Suite\20230614_000020\requests\main\3.har
+
+2023-06-14 00:02:16 - [MESSAGE][PASSED] - Send request successfully
+
+2023-06-14 00:02:16 - [TEST_STEP][PASSED] - responsevalue = jsonslurper.parseText(responseObject.getResponseText()): null
+
+2023-06-14 00:02:16 - [TEST_STEP][PASSED] - Assert.assertEquals(404, responseObject.getStatusCode()): null
+
+2023-06-14 00:02:16 - [TEST_STEP][PASSED] - println("Status Code " + responseObject.getStatusCode()): null
+
+2023-06-14 00:02:16 - [TEST_STEP][PASSED] - println("responsevalue " + responsevalue): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/APIGetRequestSingleResource" time="0.573" classname="Test Cases/APIGetRequestSingleResource" status="PASSED">
+         <system-out><![CDATA[2023-06-14 00:02:16 - [TEST_CASE][PASSED] - Test Cases/APIGetRequestSingleResource: Test Cases/APIGetRequestSingleResource
+
+2023-06-14 00:02:16 - [TEST_STEP][PASSED] - requestObject = findTestObject("APIGetRequestListResource"): null
+
+2023-06-14 00:02:16 - [TEST_STEP][PASSED] - jsonslurper = new groovy.json.JsonSlurper(): null
+
+2023-06-14 00:02:16 - [TEST_STEP][PASSED] - conTentType = new com.kms.katalon.core.testobject.TestObjectProperty(Content-Type, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json): null
+
+2023-06-14 00:02:16 - [TEST_STEP][PASSED] - acceptHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Accept, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json): null
+
+2023-06-14 00:02:16 - [TEST_STEP][PASSED] - requestObject.setHttpHeaderProperties(Arrays.asList(conTentType, acceptHeader)): null
+
+2023-06-14 00:02:16 - [TEST_STEP][PASSED] - responseObject = sendRequest(requestObject): Send request successfully
+
+2023-06-14 00:02:16 - [MESSAGE][INFO] - HAR: C:\Users\4817\Katalon Studio\My First Web UI Project\Reports\20230614_000017\API Automation New Suite\20230614_000020\requests\main\4.har
+
+2023-06-14 00:02:16 - [MESSAGE][PASSED] - Send request successfully
+
+2023-06-14 00:02:16 - [TEST_STEP][PASSED] - responsevalue = jsonslurper.parseText(responseObject.getResponseText()): null
+
+2023-06-14 00:02:16 - [TEST_STEP][PASSED] - Assert.assertEquals(200, responseObject.getStatusCode()): null
+
+2023-06-14 00:02:16 - [TEST_STEP][PASSED] - println("Status Code " + responseObject.getStatusCode()): null
+
+2023-06-14 00:02:16 - [TEST_STEP][PASSED] - println("responsevalue " + responsevalue): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-14 00:02:08 - [TEST_SUITE][PASSED] - API Automation New Suite: Test Cases/APIGetRequestSingleResource]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

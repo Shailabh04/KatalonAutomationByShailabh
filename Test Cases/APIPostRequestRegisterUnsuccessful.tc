@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>APIPostRequestRegisterUnsuccessful</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b03a2363-e6b5-40ec-be7a-bc3bdb040fb6</testCaseGuid>
+</TestCaseEntity>

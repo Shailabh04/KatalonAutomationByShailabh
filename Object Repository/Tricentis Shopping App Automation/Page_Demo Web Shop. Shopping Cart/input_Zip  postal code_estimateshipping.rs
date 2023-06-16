@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Zip  postal code_estimateshipping</name>
+   <tag></tag>
+   <elementGuidId>62126b99-6773-4695-bac7-a030c7bd22d6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;estimateshipping&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='estimateshipping']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>d4506aa0-00d6-48d1-8546-f012fdd84560</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>949573c2-e904-4f73-a0d6-6960e0c03fb0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>estimateshipping</value>
+      <webElementGuid>a1c5bbc2-2875-43a5-9c98-e109f83f6330</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Estimate shipping</value>
+      <webElementGuid>a9608304-6d3b-4b5e-9cb9-93f22ff2ed0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button-2 estimate-shipping-button</value>
+      <webElementGuid>75d19f2c-4fc6-4905-a983-01c60b6a40b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-wrapper-main&quot;]/div[@class=&quot;center-1&quot;]/div[@class=&quot;page shopping-cart-page&quot;]/div[@class=&quot;page-body&quot;]/div[@class=&quot;order-summary-content&quot;]/form[1]/div[@class=&quot;cart-footer&quot;]/div[@class=&quot;cart-collaterals&quot;]/div[@class=&quot;shipping&quot;]/div[@class=&quot;estimate-shipping&quot;]/div[@class=&quot;shipping-options&quot;]/div[@class=&quot;inputs&quot;]/input[@class=&quot;button-2 estimate-shipping-button&quot;]</value>
+      <webElementGuid>70108d3c-3d64-437d-9da8-beea462533d3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='estimateshipping']</value>
+      <webElementGuid>137de6a3-1473-4ce8-9ea0-4c55334533e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[4]/input</value>
+      <webElementGuid>815cca7f-50f1-4881-ab50-2fdb24fce3b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'submit' and @name = 'estimateshipping']</value>
+      <webElementGuid>a2770823-9956-456b-b40a-bad82d3c8f8d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

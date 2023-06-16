@@ -1,0 +1,60 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+API Automation New Suite,,,,2023-06-13 23:54:15,2023-06-13 23:54:24,8.945s,PASSED
+,,,,,,,
+Test Cases/APIDeleteRequestDeleteSecond,,,,2023-06-13 23:54:15,2023-06-13 23:54:20,4.472s,PASSED
+"requestObject = findTestObject(""APIDeleteRequestDeleteSecond"")",,,,2023-06-13 23:54:16,2023-06-13 23:54:16,0.176s,PASSED
+jsonslurper = new groovy.json.JsonSlurper(),,,,2023-06-13 23:54:16,2023-06-13 23:54:16,0.022s,PASSED
+"conTentType = new com.kms.katalon.core.testobject.TestObjectProperty(Content-Type, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json)",,,,2023-06-13 23:54:16,2023-06-13 23:54:16,0.028s,PASSED
+"acceptHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Accept, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json)",,,,2023-06-13 23:54:16,2023-06-13 23:54:16,0.019s,PASSED
+"requestObject.setHttpHeaderProperties(Arrays.asList(conTentType, acceptHeader))",,,,2023-06-13 23:54:16,2023-06-13 23:54:16,0.221s,PASSED
+responseObject = sendRequest(requestObject),,,,2023-06-13 23:54:16,2023-06-13 23:54:20,3.433s,PASSED
+"Assert.assertEquals(204, responseObject.getStatusCode())",,,,2023-06-13 23:54:20,2023-06-13 23:54:20,0.070s,PASSED
+"println(""Status Code "" + responseObject.getStatusCode())",,,,2023-06-13 23:54:20,2023-06-13 23:54:20,0.025s,PASSED
+,,,,,,,
+Test Cases/APIGetRequestDelayedResponse,,,,2023-06-13 23:54:20,2023-06-13 23:54:21,1.216s,PASSED
+"requestObject = findTestObject(""APIGetRequestDelayedResponse"")",,,,2023-06-13 23:54:20,2023-06-13 23:54:20,0.105s,PASSED
+jsonslurper = new groovy.json.JsonSlurper(),,,,2023-06-13 23:54:20,2023-06-13 23:54:20,0.019s,PASSED
+"conTentType = new com.kms.katalon.core.testobject.TestObjectProperty(Content-Type, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json)",,,,2023-06-13 23:54:20,2023-06-13 23:54:20,0.015s,PASSED
+"acceptHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Accept, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json)",,,,2023-06-13 23:54:20,2023-06-13 23:54:20,0.018s,PASSED
+"requestObject.setHttpHeaderProperties(Arrays.asList(conTentType, acceptHeader))",,,,2023-06-13 23:54:20,2023-06-13 23:54:20,0.016s,PASSED
+responseObject = sendRequest(requestObject),,,,2023-06-13 23:54:20,2023-06-13 23:54:21,0.560s,PASSED
+responsevalue = jsonslurper.parseText(responseObject.getResponseText()),,,,2023-06-13 23:54:21,2023-06-13 23:54:21,0.051s,PASSED
+"Assert.assertEquals(200, responseObject.getStatusCode())",,,,2023-06-13 23:54:21,2023-06-13 23:54:21,0.022s,PASSED
+"println(""Status Code "" + responseObject.getStatusCode())",,,,2023-06-13 23:54:21,2023-06-13 23:54:21,0.033s,PASSED
+"println(""responsevalue "" + responsevalue)",,,,2023-06-13 23:54:21,2023-06-13 23:54:21,0.030s,PASSED
+,,,,,,,
+Test Cases/APIGetRequestListResource,,,,2023-06-13 23:54:21,2023-06-13 23:54:22,0.744s,PASSED
+"requestObject = findTestObject(""APIGetRequestListResource"")",,,,2023-06-13 23:54:22,2023-06-13 23:54:22,0.117s,PASSED
+jsonslurper = new groovy.json.JsonSlurper(),,,,2023-06-13 23:54:22,2023-06-13 23:54:22,0.014s,PASSED
+"conTentType = new com.kms.katalon.core.testobject.TestObjectProperty(Content-Type, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json)",,,,2023-06-13 23:54:22,2023-06-13 23:54:22,0.014s,PASSED
+"acceptHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Accept, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json)",,,,2023-06-13 23:54:22,2023-06-13 23:54:22,0.026s,PASSED
+"requestObject.setHttpHeaderProperties(Arrays.asList(conTentType, acceptHeader))",,,,2023-06-13 23:54:22,2023-06-13 23:54:22,0.014s,PASSED
+responseObject = sendRequest(requestObject),,,,2023-06-13 23:54:22,2023-06-13 23:54:22,0.191s,PASSED
+responsevalue = jsonslurper.parseText(responseObject.getResponseText()),,,,2023-06-13 23:54:22,2023-06-13 23:54:22,0.000s,PASSED
+"Assert.assertEquals(200, responseObject.getStatusCode())",,,,2023-06-13 23:54:22,2023-06-13 23:54:22,0.000s,PASSED
+"println(""Status Code "" + responseObject.getStatusCode())",,,,2023-06-13 23:54:22,2023-06-13 23:54:22,0.000s,PASSED
+"println(""responsevalue "" + responsevalue)",,,,2023-06-13 23:54:22,2023-06-13 23:54:22,0.000s,PASSED
+,,,,,,,
+Test Cases/APIGetRequestNotFound,,,,2023-06-13 23:54:22,2023-06-13 23:54:23,1.183s,PASSED
+"requestObject = findTestObject(""APIGetRequestNotFound"")",,,,2023-06-13 23:54:22,2023-06-13 23:54:22,0.111s,PASSED
+jsonslurper = new groovy.json.JsonSlurper(),,,,2023-06-13 23:54:22,2023-06-13 23:54:22,0.018s,PASSED
+"conTentType = new com.kms.katalon.core.testobject.TestObjectProperty(Content-Type, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json)",,,,2023-06-13 23:54:22,2023-06-13 23:54:22,0.008s,PASSED
+"acceptHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Accept, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json)",,,,2023-06-13 23:54:23,2023-06-13 23:54:23,0.009s,PASSED
+"requestObject.setHttpHeaderProperties(Arrays.asList(conTentType, acceptHeader))",,,,2023-06-13 23:54:23,2023-06-13 23:54:23,0.018s,PASSED
+responseObject = sendRequest(requestObject),,,,2023-06-13 23:54:23,2023-06-13 23:54:23,0.447s,PASSED
+responsevalue = jsonslurper.parseText(responseObject.getResponseText()),,,,2023-06-13 23:54:23,2023-06-13 23:54:23,0.004s,PASSED
+"Assert.assertEquals(404, responseObject.getStatusCode())",,,,2023-06-13 23:54:23,2023-06-13 23:54:23,0.014s,PASSED
+"println(""Status Code "" + responseObject.getStatusCode())",,,,2023-06-13 23:54:23,2023-06-13 23:54:23,0.014s,PASSED
+"println(""responsevalue "" + responsevalue)",,,,2023-06-13 23:54:23,2023-06-13 23:54:23,0.000s,PASSED
+,,,,,,,
+Test Cases/APIGetRequestSingleResource,,,,2023-06-13 23:54:23,2023-06-13 23:54:24,0.618s,PASSED
+"requestObject = findTestObject(""APIGetRequestListResource"")",,,,2023-06-13 23:54:23,2023-06-13 23:54:24,0.109s,PASSED
+jsonslurper = new groovy.json.JsonSlurper(),,,,2023-06-13 23:54:24,2023-06-13 23:54:24,0.011s,PASSED
+"conTentType = new com.kms.katalon.core.testobject.TestObjectProperty(Content-Type, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json)",,,,2023-06-13 23:54:24,2023-06-13 23:54:24,0.000s,PASSED
+"acceptHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Accept, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json)",,,,2023-06-13 23:54:24,2023-06-13 23:54:24,0.008s,PASSED
+"requestObject.setHttpHeaderProperties(Arrays.asList(conTentType, acceptHeader))",,,,2023-06-13 23:54:24,2023-06-13 23:54:24,0.000s,PASSED
+responseObject = sendRequest(requestObject),,,,2023-06-13 23:54:24,2023-06-13 23:54:24,0.163s,PASSED
+responsevalue = jsonslurper.parseText(responseObject.getResponseText()),,,,2023-06-13 23:54:24,2023-06-13 23:54:24,0.001s,PASSED
+"Assert.assertEquals(200, responseObject.getStatusCode())",,,,2023-06-13 23:54:24,2023-06-13 23:54:24,0.004s,PASSED
+"println(""Status Code "" + responseObject.getStatusCode())",,,,2023-06-13 23:54:24,2023-06-13 23:54:24,0.000s,PASSED
+"println(""responsevalue "" + responsevalue)",,,,2023-06-13 23:54:24,2023-06-13 23:54:24,0.000s,PASSED

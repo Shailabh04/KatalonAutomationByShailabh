@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>APIGetRequestNotFound</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aac26e89-2218-4c96-800d-bf258026520f</testCaseGuid>
+</TestCaseEntity>

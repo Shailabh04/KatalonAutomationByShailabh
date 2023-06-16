@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Customer_os-icon os-icon-chevron-down</name>
+   <tag></tag>
+   <elementGuidId>e0bd0609-2a55-4e0f-bfcc-33dab314d84f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.os-icon.os-icon-chevron-down</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div/div/div/div[3]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8289b31d-7505-4294-8211-300838dc4d85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>os-icon os-icon-chevron-down</value>
+      <webElementGuid>8b9fd1d6-d907-4b7d-b266-c3f51d634161</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;menu-position-side menu-side-left full-screen&quot;]/div[@class=&quot;all-wrapper solid-bg-all&quot;]/div[@class=&quot;layout-w&quot;]/div[@class=&quot;menu-w color-scheme-light color-style-transparent menu-position-side menu-side-left menu-layout-compact sub-menu-style-over sub-menu-color-bright selected-menu-color-light menu-activated-on-hover menu-has-selected-link&quot;]/div[@class=&quot;logged-user-w avatar-inline&quot;]/div[@class=&quot;logged-user-i&quot;]/div[@class=&quot;logged-user-toggler-arrow&quot;]/div[@class=&quot;os-icon os-icon-chevron-down&quot;]</value>
+      <webElementGuid>2c6fc21b-c86a-44ba-aa4b-48bd94c1c66b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div[3]/div</value>
+      <webElementGuid>5b5fb190-4fd9-45be-b5e0-92c0eb600e44</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
